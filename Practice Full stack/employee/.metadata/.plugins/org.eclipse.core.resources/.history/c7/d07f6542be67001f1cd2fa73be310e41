@@ -1,0 +1,5 @@
+package com.fullstack.employee.Repository;
+
+public class EmployeeRepository {
+
+}

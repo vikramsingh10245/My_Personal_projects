@@ -1,0 +1,17 @@
+Basically it was a live project -Car parking system .
+In that project there is a admin which can maintain everything and can add/delete/update 
+the operator
+ and see all the details of the cars. he has every permission. The operator which uses this software is basically do these things:-
+1.The operator first checks whether there are slots available or not is available it books 
+the slot for the customer and there are 3 floors
+ so if the slots are available its shown in green and if its booked it shows red color.
+
+2.When the customer come the operator just had to enter the car number and select the 
+slot for the car and details will be automatically be filled 
+like floor no, slot, date, time.
+
+3.And when the customer goes out the operator just had to enter the car number and 
+checkout time will be automatically be entered in the database.
+
+4.The operator can also check the recent booked slots and as well as current date parking 
+And about when the operator forget his/her password he can reset it by entering date of joining and his pet name.

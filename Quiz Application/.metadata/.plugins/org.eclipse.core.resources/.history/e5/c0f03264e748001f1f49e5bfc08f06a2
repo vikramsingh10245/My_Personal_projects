@@ -1,0 +1,8 @@
+package com.project.quizapp.model;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Quiz {
+
+}

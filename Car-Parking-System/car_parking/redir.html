@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function redirect()
+            {
+                var count=2;
+                setInterval(function()
+              {
+                  if(count==0)
+                  {
+                      window.location = 'logg.php';
+                  }
+                  count--;
+              },1000);
+            }
+        </script>
+    </head>
+    <body onload="redirect();">
+        <div id="wrapper">
+        <h2>Password Successfully Changed</h2>
+      </div>
+    </body>
+</html>

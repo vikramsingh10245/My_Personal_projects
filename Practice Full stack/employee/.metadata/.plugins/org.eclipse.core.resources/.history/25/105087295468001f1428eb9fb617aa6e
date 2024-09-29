@@ -1,0 +1,36 @@
+package com.fullstack.employee.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fullstack.employee.Repository.EmployeeRepository;
+import com.fullstack.employee.entity.Employee;
+
+@Service
+public class EmployeeService {
+	@Autowired
+private EmployeeRepository empRepo;
+
+	public Employee addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return empRepo.save(employee);
+	}
+	
+	public List<Employee> getAllEmployees(){
+		return empRepo.findAll();
+	}
+
+	public String deleteEmployee(Long id) {
+		empRepo.deleteById(id);
+		return "data deleted sucessfully";
+		
+	}
+
+	public Optional<Employee> getEmployeeById(Long id) {
+		
+		return empRepo.findById(id);
+	}
+}

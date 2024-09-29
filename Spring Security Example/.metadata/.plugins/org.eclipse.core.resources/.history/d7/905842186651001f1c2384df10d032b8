@@ -1,0 +1,22 @@
+package com.practice.SpringSecEx.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.practice.SpringSecEx.dao.UserRepo;
+import com.practice.SpringSecEx.model.User;
+
+@Service
+public class UserService {
+	
+	@Autowired
+	private UserRepo userRepo;
+
+	public User register(User user) {
+		// TODO Auto-generated method stub
+		
+		return userRepo.save(user);
+	}
+	
+
+}

@@ -1,0 +1,5 @@
+package com.fullstack.employee.Service;
+
+public class EmployeeService {
+
+}

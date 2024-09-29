@@ -1,0 +1,5 @@
+package com.practice.SpringSecEx.config;
+
+public class SecurityConfig {
+
+}

@@ -1,0 +1,17 @@
+package com.project.quizapp.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.project.quizapp.model.Question;
+
+@Service
+public class QuestionService {
+
+	public List<Question> getAllQuestions() {
+		
+		return null;
+	}
+
+}

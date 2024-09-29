@@ -1,0 +1,8 @@
+package com.project.quizapp.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public i QuestionDao implements  {
+
+}

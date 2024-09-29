@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="2"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/navinreddy20/spring6-course.git"/>
+		<item value="https://github.com/navinreddy20/spring6-course/tree/c6690e4f2c70d8f530d70623f13d14ff0ffd7e7d/12%20Spring%20security/13.1%20Plan%20To%20Secure%20Job%20App%20Project/spring-boot-rest"/>
+		<item value="sftp://https//github.com/navinreddy20/spring6-course/tree/c6690e4f2c70d8f530d70623f13d14ff0ffd7e7d/12%20Spring%20security/13.1%20Plan%20To%20Secure%20Job%20App%20Project/spring-boot-rest"/>
+		<item value="git://https://github.com/navinreddy20/spring6-course/tree/c6690e4f2c70d8f530d70623f13d14ff0ffd7e7d/12%20Spring%20security/13.1%20Plan%20To%20Secure%20Job%20App%20Project/spring-boot-rest"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<section name="GitImportWizard">
+		<section name="GitImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="159"/>
+			<item key="DIALOG_Y_ORIGIN" value="172"/>
+			<item key="DIALOG_WIDTH" value="1770"/>
+			<item key="DIALOG_HEIGHT" value="627"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="SmartImportGitWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="159"/>
+		<item key="DIALOG_Y_ORIGIN" value="172"/>
+		<item key="DIALOG_WIDTH" value="1770"/>
+		<item key="DIALOG_HEIGHT" value="627"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

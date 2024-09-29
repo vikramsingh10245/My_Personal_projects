@@ -1,0 +1,5 @@
+package com.project.quizapp.service;
+
+public class QuestionService {
+
+}
